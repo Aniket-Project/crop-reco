@@ -3,9 +3,9 @@ import numpy as np
 import pickle
 
 # Load the model and scalers
-model = pickle.load(open(r'C:\Users\anike\PycharmProjects\pythonProject2\model .pkl', 'rb'))
-scaler = pickle.load(open(r'C:\Users\anike\Downloads\standscaler.pkl', 'rb'))
-min_max_scaler = pickle.load(open(r'C:\Users\anike\Downloads\minmaxscaler.pkl', 'rb'))
+model = pickle.load(open(r'model .pkl', 'rb'))
+scaler = pickle.load(open(r'standscaler.pkl', 'rb'))
+min_max_scaler = pickle.load(open(r'minmaxscaler.pkl', 'rb'))
 
 # Dictionary mapping crop numbers to crop names
 crop_dict = {
